@@ -21,7 +21,7 @@ $(".gnb>li").mouseleave(function () {
 $(".btn_ham").click(function () {
   $(".ham").fadeIn();
 });
-/* $(".mdepth2").hide(); */
+$(".mdepth2").hide();
 $(".mgnb > li").click(function () {
   $(this).find(".mdepth2").slideToggle();
   $(this).siblings().find(".mdepth2").slideUp();
