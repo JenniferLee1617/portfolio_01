@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+html{scroll-behavior: smooth; font-size: 62.5%;}
+*{margin: 0; padding: 0; box-sizing: border-box;}
+a{text-decoration: none; color: #fff;}
+ol, ul{list-style: none;}
+table{border-collapse: collapse; width: 100%;}
+caption, legend{display: none;}
+input, select, textarea, fieldset{border: 0; outline: none;}
+img{vertical-align: top;}
+
+/* 글자기울임 방지 */
+i, em, address{font-style: normal;}
+
+/* 글자 굵기 기본 설정 */
+h1, h2, h3, h4, h5, h6, b, strong{font-weight: normal;}
+
+button, input{background: transparent; border: 0;}
